@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albas - Girls Partywear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Albas</a>
+        </div>
+        <nav id="desktop-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#about-section">About</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-nav-container">
+            <button id="hamburger-icon" class="header-icon"><i class="fas fa-bars"></i></button>
+            <div id="mobile-nav" class="mobile-nav">
+                <a href="#">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="#about-section">About</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="search-container">
+                <button id="search-icon" class="header-icon"><i class="fas fa-search"></i></button>
+                <div id="search-bar" class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <a href="#" class="header-icon"><i class="fas fa-shopping-bag"></i></a>
+            <button id="theme-toggle" class="header-icon"><i class="fas fa-sun"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Exquisite Partywear for Young Ladies</h1>
+            <p>Discover our collection of beautifully crafted dresses for every special occasion.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <!-- Product items will be added here -->
+            </div>
+        </section>
+
+        <section id="about-section" class="about-us">
+            <h2>About Albas</h2>
+            <p>Welcome to Albas, your number one source for exquisite partywear for young ladies. We're dedicated to giving you the very best of dresses, with a focus on quality, customer service and uniqueness.</p>
+            <h3>Contact Us</h3>
+            <p>Email: contact@albas.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Albas. All Rights Reserved.</p>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <button id="close-cart" class="close-cart">&times;</button>
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <a href="#" id="whatsapp-order" class="btn whatsapp-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
